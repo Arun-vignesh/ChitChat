@@ -1,0 +1,39 @@
+{
+  "name": "chitchat",
+  "version": "1.0.0",
+  "description": "Chit chat is an application which was used to talk things of less important",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arun-vignesh/ChitChat.git"
+  },
+  "keywords": [
+    "node-js",
+    "js"
+  ],
+  "author": "arun-vignesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arun-vignesh/ChitChat/issues"
+  },
+  "homepage": "https://github.com/Arun-vignesh/ChitChat#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1"
+  }
+}
